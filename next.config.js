@@ -1,5 +1,5 @@
-const isProd = process.env.NODE_ENV === "production";
+// const isProd = process.env.NODE_ENV === "production";
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: isProd ? "/https://github.com/Johnbak/testgithubpage/" : "",
+  assetPrefix: "/https://github.com/Johnbak/testgithubpage/",
 };
