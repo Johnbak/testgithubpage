@@ -1,5 +1,4 @@
-// const isProd = process.env.NODE_ENV === "production";
 module.exports = {
-  reactStrictMode: true,
-  assetPrefix: "/https://github.com/Johnbak/testgithubpage/",
+  // Use the CDN in production and localhost for development.
+  assetPrefix: isProd ? "https://github.com/Johnbak/testgithubpage/" : "",
 };
